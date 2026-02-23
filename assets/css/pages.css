@@ -111,3 +111,66 @@
   margin-left: 1rem;
   font-size: clamp(0.688rem, 0.563rem + 0.625vw, 1.125rem);
 }
+
+/* Character Page Css */
+.characters-main {
+  padding-bottom: 3rem;
+}
+
+.character-page-intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.character-page-intro p {
+  padding: 1rem;
+  background-color: rgb(217, 83, 83);
+  color: white;
+  border-radius: 1rem;
+}
+
+.character-page-cards {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.character-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 122, 211);
+  gap: 0.5rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  color: white;
+}
+
+.character-card img {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid red;
+  object-fit: cover;
+}
+
+.character-card a {
+  padding: 0.2rem 1rem;
+  background-color: rgb(220, 118, 118);
+  color: white;
+  border-radius: 1rem;
+}
+
+#characterSearch {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 3px solid black;
+  border-radius: 1rem;
+  font-size: 0.4rem;
+}

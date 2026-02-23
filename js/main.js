@@ -1,3 +1,4 @@
+// Website Navigation bar and tab feature
 const openButton = document.getElementById("open-sidebar-button");
 const navBar = document.getElementById("navbar");
 
@@ -28,3 +29,26 @@ function closeSideBar() {
 }
 
 updateNavbar(media);
+
+// Character Search Function
+
+function searchUma() {
+  let input = document.getElementById("characterSearch");
+  let filter = input.value.toLowerCase();
+
+  let cards = document.getElementsByClassName("character-card");
+
+  for (let i = 0; i < cards.length; i++) {
+    let name = cards[i].getElementsByTagName("h3")[0];
+
+    if (name) {
+      let textValue = name.textContent || name.innerText;
+
+      if (textValue.toLowerCase().indexOf(filter) > -1) {
+        cards[i].style.display = "";
+      } else {
+        cards[i].style.display = "none";
+      }
+    }
+  }
+}
