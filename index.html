@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Umaguide mm</title>
+
+    <!--Css and JS link-->
+    <!--Css link-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
+
+    <!-- title logo  -->
+    <link rel="icon" type="titlelogo" href="assets/icon/umaguidelogo.webp" />
+
+    <!--Js link-->
+    <script src="js/main.js" defer></script>
+
+    <!-- link google font for myanmar -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <!--Logo-->
+    <header>
+      <div>
+        <a href="/" class="logo-wrapper" aria-current="page">
+          <span class="logo-main">UMAGUIDE</span>
+          <span class="logo-mm">MM</span>
+        </a>
+        <!--Sidebar for mobile-->
+      </div>
+      <button
+        id="open-sidebar-button"
+        onclick="openSideBar()"
+        aria-label="open sidebar"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <img
+          src="assets/icon/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+          alt=""
+        />
+      </button>
+      <nav id="navbar">
+        <ul>
+          <li>
+            <button
+              id="close-sidebar-button"
+              onclick="closeSideBar()"
+              aria-label="close sidebar"
+            >
+              <img
+                src="assets/icon/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+                alt=""
+              />
+            </button>
+          </li>
+          <li><a class="nav-links" href="index.html">HOME</a></li>
+          <li><a class="nav-links" href="pages/guide.html">Guides</a></li>
+          <li>
+            <a class="nav-links" href="pages/characters.html">Characters</a>
+          </li>
+          <li><a class="nav-links" href="pages/races.html">Races</a></li>
+          <li><a class="nav-links" href="pages/about.html">About</a></li>
+        </ul>
+      </nav>
+      <!-- overlay for closing menu -->
+      <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <section class="landingpage-welcome">
+        <div class="welcome-content">
+          <h1 class="heading">WELCOME TO UMA GUIDE MM</h1>
+          <p class="text">
+            ဤဝဘ်ဆိုဒ်သည် Uma Musume Pretty Derby ကို စတင်ကစားမည့်သူများအတွက်
+            အသေးစိတ်လမ်းညွှန်ချက်များအပြင်၊ ဂိမ်းထဲက ဇာတ်ကောင်လေးတွေရဲ့
+            နောက်ကွယ်က တကယ့်လက်တွေ့ကမ္ဘာမှ နာမည်ကျော်ပြိုင်မြင်းများအကြောင်းကို
+            စုစည်းတင်ဆက်ထားတဲ့ နေရာတစ်ခုဖြစ်ပါတယ်။
+          </p>
+          <a href="">Explore Guide</a>
+        </div>
+      </section>
+
+      <section class="landingpage-what">
+        <div class="what-is-uma">
+          <h1 class="heading">What is Uma Musume Pretty Derby?</h1>
+          <p class="text">
+            Uma Musume Pretty Derby ဆိုတာ ဂျပန်နိုင်ငံရဲ့ နာမည်ကျော်
+            ဂိမ်းကုမ္ပဏီတစ်ခုဖြစ်တဲ့ Cygames က ဖန်တီးထားတဲ့ လူကြိုက်များလှတဲ့
+            Multimedia Project တစ်ခုဖြစ်ပါတယ်။ ဒီစီးရီးရဲ့ ထူးခြားချက်ကတော့
+            ဂျပန်မြင်းပြိုင်လောကမှာ တကယ်ပဲ နာမည်ကြီးခဲ့တဲ့
+            ဂန္ထဝင်ပြိုင်မြင်းကြီးတွေကို အခြေခံပြီး "Horse Girls"
+            (မြင်းမလေးများ) အဖြစ် ပုံဖော်ဖန်တီးထားတာပဲ ဖြစ်ပါတယ်။
+          </p>
+        </div>
+      </section>
+
+      <section class="landingpage-why">
+        <div class="why-uma-popular">
+          <h1 class="heading">Why Uma Musume Popular?</h1>
+          <p class="text">
+            Uma Musume ဟာ ရိုးရိုး Anime ဂိမ်းတစ်ခုထက် ပိုပါတယ်။ ဒီစီးရီးဟာ
+            ဂျပန်နိုင်ငံမှာတင်မကဘဲ တစ်ကမ္ဘာလုံးက ပရိသတ်တွေကြား ဘာကြောင့်
+            ဒီလောက်ထိ အောင်မြင်ကျော်ကြားနေရသလဲဆိုတဲ့ အချက်တွေကို အခုလို
+            စုစည်းတင်ပြပေးလိုက်ပါတယ်။
+          </p>
+        </div>
+        <div class="popular-cards-wrapper">
+          <div class="why-popular-card">
+            <h2 class="card-heading">Deep Historical Tribute</h2>
+            <p>
+              ဒီဂိမ်းထဲက ဇာတ်ကောင် "Horse Girls" လေးတွေဟာ စိတ်ကူးယဉ်သက်သက်
+              မဟုတ်ပါဘူး။ သူတို့ရဲ့ စရိုက်တွေ၊ ပြိုင်ပွဲရလဒ်တွေနဲ့
+              ခံစားချက်တွေဟာ တကယ့်လက်တွေ့ဘဝမှာ ရှိခဲ့တဲ့
+              ဂန္ထဝင်ပြိုင်မြင်းတွေရဲ့ ဘဝဇာတ်ကြောင်းတွေကို အခြေခံထားတာပါ။
+              ဒါကြောင့် သမိုင်းကြောင်းကို သိတဲ့ ပရိသတ်တွေအတွက်ရော၊
+              အသစ်လေ့လာသူတွေအတွက်ပါ အရမ်းကို စွဲမက်စရာကောင်းနေတာ ဖြစ်ပါတယ်။
+            </p>
+          </div>
+          <div class="why-popular-card">
+            <h2 class="card-heading">High-Quality Production</h2>
+            <p>
+              Cygames ရဲ့ ထုံးစံအတိုင်း အဆင့်မြင့် 3D Graphics တွေ၊ အသက်ဝင်လှတဲ့
+              အပြေးလှုပ်ရှားမှုတွေနဲ့ တကယ့် Idol ပွဲတစ်ခုကို ကြည့်နေရသလို
+              ခံစားရစေမယ့် "Winning Live" ဖျော်ဖြေမှုတွေက ပရိသတ်တွေကို
+              ဖမ်းစားထားနိုင်ပါတယ်။
+            </p>
+          </div>
+
+          <div class="why-popular-card">
+            <h2 class="card-heading">Immersive Gameplay</h2>
+            <p>
+              ကစားသမားတွေဟာ "Trainer" တစ်ယောက်အနေနဲ့ မိမိရဲ့ Horse Girl
+              လေးတွေကို အစားအသောက်၊ ကျန်းမာရေးကအစ လေ့ကျင့်ခန်းတွေအထိ စနစ်တကျ
+              စီမံခန့်ခွဲပေးရပါတယ်။ ဒီလို ပြုစုပျိုးထောင်ရင်းနဲ့
+              အောင်ပွဲရလာတဲ့အခါမှာ ရရှိတဲ့ ပီတိက တခြားဂိမ်းတွေနဲ့မတူဘဲ
+              ထူးခြားလှပါတယ်။
+            </p>
+          </div>
+
+          <div class="why-popular-card">
+            <h2 class="card-heading">Bridging Generations</h2>
+            <p>
+              ဒီစီးရီးဟာ Anime ဝါသနာအိုး လူငယ်တွေနဲ့ မြင်းပြိုင်ပွဲဝါသနာပါတဲ့
+              လူကြီးပိုင်းတွေကို တစ်နေရာတည်းမှာ ဆုံစည်းစေခဲ့ပါတယ်။ တကယ့်လက်တွေ့
+              မြင်းပြိုင်ကွင်းတွေကို ပြန်လည်အသက်ဝင်လာစေဖို့လည်း
+              တွန်းအားပေးနိုင်ခဲ့တာကြောင့် လူမှုအသိုင်းအဝိုင်းကြားမှာ အရမ်းကို
+              လူကြိုက်များသွားခဲ့တာ ဖြစ်ပါတယ်။
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <section class="footer-top">
+        <!-- footer Quick links -->
+        <div class="footerquicklinks">
+          <h4>Quick Links</h4>
+          <ul>
+            <!--footer navigation link -->
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="pages/guide.html">Guides Page</a></li>
+            <li>
+              <a class="nav-links" href="pages/characters.html"
+                >Characters Page</a
+              >
+            </li>
+            <li><a class="nav-links" href="pages/races.html">Races Page</a></li>
+            <li><a class="nav-links" href="pages/about.html">About Page</a></li>
+          </ul>
+        </div>
+        <!-- footer Popular -->
+        <div class="footerpopular">
+          <h4>Popular</h4>
+          <ul>
+            <li><a href="pages/characters/gold-ship.html">Gold Ship</a></li>
+            <li>
+              <a href="pages/guides/beginer-guide.html">Beginner Guide</a>
+            </li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+        <div class="footerlegal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="pages/term-of-use.html">Terms of Use</a></li>
+            <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <div class="footer-bottom">
+        <span
+          >&copy; 2026 Uma Musume Fan Guide. Unofficial fan-made website.</span
+        >
+        <span> No user accounts or personal data collection. </span>
+      </div>
+    </footer>
+  </body>
+</html>

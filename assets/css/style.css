@@ -1,0 +1,241 @@
+:root {
+  --primary-color: rgb(20, 1, 1);
+  --footer-text: rgb(160, 224, 75);
+  --footer-linkcolor: rgb(179, 179, 205);
+  --header-nav-color: rgb(236, 211, 211);
+  --header-nav-hover: rgba(5, 22, 45, 0.767);
+  --header-background-color: rgb(99, 99, 221);
+  --header-background-color-mobile: rgba(76, 76, 178, 0.93);
+  --footer-background-color: rgb(16, 24, 51);
+  --footer-linkcolor-hover: rgb(194, 200, 239);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  /* header main footer template */
+  grid-template-rows: auto 1fr auto;
+  font-family: "Padauk", sans-serif;
+  font-weight: 700;
+}
+
+main {
+  padding: 0 10%;
+}
+
+/* overlay for closing menu */
+#overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  display: none;
+}
+
+/* header css */
+header {
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--header-background-color);
+  padding: 0.5% 10%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  z-index: 999;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+}
+header ul li {
+  display: flex;
+}
+
+header nav ul li .nav-links {
+  display: flex;
+  font-size: clamp(0.8rem, 0.743rem + 0.286vw, 1rem);
+  font-weight: 800;
+  color: var(--header-nav-color);
+  padding: 0.4em 2em;
+}
+
+header nav ul li .nav-links:hover {
+  color: var(--header-nav-hover);
+  height: 100%;
+}
+
+/* The Responsive Logo Wrapper */
+.logo-wrapper {
+  display: flex;
+  align-items: flex-start;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin-right: auto;
+  font-weight: bold;
+  color: var(--header-nav-color);
+}
+.logo-wrapper:hover {
+  color: rgb(6, 21, 95);
+}
+
+.logo-main {
+  font-size: clamp(1rem, 0.571rem + 2.143vw, 2.5rem);
+  font-weight: 900;
+  line-height: 0.9;
+  padding-bottom: 2px;
+}
+
+.logo-mm {
+  font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
+  margin-left: 2px;
+  font-weight: bold;
+}
+
+#open-sidebar-button {
+  display: none;
+}
+#close-sidebar-button {
+  display: none;
+}
+
+/* footer css */
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: var(--footer-background-color);
+  padding: 1% 10%;
+}
+footer section div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+footer section div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+footer {
+  color: var(--footer-text);
+  font-size: clamp(0.8rem, 0.686rem + 0.571vw, 1.2rem);
+}
+
+footer a {
+  font-size: clamp(0.6rem, 0.486rem + 0.571vw, 1rem);
+  color: var(--footer-linkcolor);
+}
+footer a:hover {
+  color: var(--footer-linkcolor-hover);
+}
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+.footer-top > div {
+  flex: 1; /* Forces all columns to take up equal width */
+  min-width: 200px; /* Prevents them from getting too squished on small screens */
+}
+
+hr {
+  width: 100%;
+  margin: 1% 0;
+  padding: 0 0;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(0.5rem, 0.414rem + 0.429vw, 0.8rem);
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+@media (max-width: 800px) {
+  header nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: min(15em, 100%);
+    z-index: 10;
+    border-left: 1px solid var(--header-nav-hover);
+    background-color: var(--header-background-color-mobile);
+    transition: right 200ms ease-out;
+  }
+  nav.show {
+    right: 0;
+  }
+  nav.show ~ #overlay {
+    display: block;
+  }
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  nav a {
+    width: 100%;
+    padding-left: 2em;
+  }
+  #open-sidebar-button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  #open-sidebar-button img {
+    width: 1.4rem;
+  }
+  #close-sidebar-button {
+    width: 100%;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0.5em;
+    margin-top: 0.5rem;
+  }
+
+  .footer-top {
+    flex-direction: column; /* Stacks the items vertically */
+    align-items: center; /* Centers them for a better mobile look */
+    text-align: center; /* Centers the text inside the columns */
+    gap: 1rem; /* Adds space between the stacked sections */
+  }
+}

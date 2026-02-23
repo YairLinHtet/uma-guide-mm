@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Umaguide mm</title>
+
+    <!--Css and JS link-->
+    <!--Css link-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/pages.css" />
+
+    <!-- title logo  -->
+    <link rel="icon" type="titlelogo" href="../assets/icon/umaguidelogo.webp" />
+
+    <!--Js link-->
+    <script src="../js/main.js" defer></script>
+
+    <!-- link google font for myanmar -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <!--Logo-->
+    <header>
+      <div>
+        <a href="../index.html" class="logo-wrapper" aria-current="page">
+          <span class="logo-main">UMAGUIDE</span>
+          <span class="logo-mm">MM</span>
+        </a>
+      </div>
+
+      <button
+        id="open-sidebar-button"
+        onclick="openSideBar()"
+        aria-label="open sidebar"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <img
+          src="../assets/icon/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+          alt=""
+        />
+      </button>
+
+      <nav id="navbar">
+        <ul>
+          <li>
+            <button
+              id="close-sidebar-button"
+              onclick="closeSideBar()"
+              aria-label="close sidebar"
+            >
+              <img
+                src="../assets/icon/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+                alt=""
+              />
+            </button>
+          </li>
+
+          <li><a class="nav-links" href="../index.html">HOME</a></li>
+          <li><a class="nav-links" href="../pages/guide.html">Guides</a></li>
+          <li>
+            <a class="nav-links" href="../pages/characters.html">Characters</a>
+          </li>
+          <li><a class="nav-links" href="../pages/races.html">Races</a></li>
+          <li><a class="nav-links" href="../pages/about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
+    </header>
+
+    <main class="legal-container">
+      <section class="legal-content">
+        <h1>Privacy Policy</h1>
+
+        <h2>1. Information We Collect</h2>
+        <p>
+          This website does not require user registration and does not collect
+          personal information such as names, emails, or passwords.
+        </p>
+        <p>
+          Basic technical information may be collected automatically through:
+        </p>
+        <ul>
+          <li>Browser type</li>
+          <li>Device type</li>
+          <li>IP address</li>
+          <li>Pages visited</li>
+        </ul>
+        <p>
+          This information is used only for analytics and website improvement.
+        </p>
+
+        <h2>2. Cookies</h2>
+        <p>
+          This website may use cookies for basic functionality and analytics
+          purposes.
+        </p>
+        <p>
+          Users can disable cookies in their browser settings if they prefer.
+        </p>
+
+        <h2>3. Third-Party Services</h2>
+        <p>
+          If analytics tools such as Google Analytics or advertising services
+          are used, those services may collect data according to their own
+          privacy policies.
+        </p>
+        <p>
+          This website does not control how third-party services handle user
+          data.
+        </p>
+
+        <h2>4. Data Protection</h2>
+        <p>
+          We do not sell, trade, or transfer personal information to third
+          parties.
+        </p>
+        <p>Since no account system exists, no sensitive user data is stored.</p>
+
+        <h2>5. Children&apos;s Privacy</h2>
+        <p>
+          This website is intended for general audiences. We do not knowingly
+          collect personal information from children.
+        </p>
+
+        <h2>6. Changes to This Policy</h2>
+        <p>
+          This Privacy Policy may be updated in the future. Updates will be
+          posted on this page.
+        </p>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <section class="footer-top">
+        <div class="footerquicklinks">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="../index.html">Home Page</a></li>
+            <li><a href="../pages/guide.html">Guides Page</a></li>
+            <li>
+              <a class="nav-links" href="../pages/characters.html">
+                Characters Page
+              </a>
+            </li>
+            <li>
+              <a class="nav-links" href="../pages/races.html">Races Page</a>
+            </li>
+            <li>
+              <a class="nav-links" href="../pages/about.html">About Page</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footerpopular">
+          <h4>Popular</h4>
+          <ul>
+            <li>
+              <a href="../pages/characters/gold-ship.html">Gold Ship</a>
+            </li>
+            <li>
+              <a href="../pages/guides/beginer-guide.html">Beginner Guide</a>
+            </li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+
+        <div class="footerlegal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../pages/term-of-use.html">Terms of Use</a></li>
+            <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <span>
+          &copy; 2026 Uma Musume Fan Guide. Unofficial fan-made website.
+        </span>
+        <span> No user accounts or personal data collection. </span>
+      </div>
+    </footer>
+  </body>
+</html>

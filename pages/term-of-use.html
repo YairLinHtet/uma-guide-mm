@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Use | Umaguide MM</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/pages.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/webp"
+      href="../assets/icon/umaguidelogo.webp"
+    />
+
+    <!-- JS -->
+    <script src="../js/main.js" defer></script>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div>
+        <a href="../index.html" class="logo-wrapper">
+          <span class="logo-main">UMAGUIDE</span>
+          <span class="logo-mm">MM</span>
+        </a>
+      </div>
+
+      <button
+        id="open-sidebar-button"
+        onclick="openSideBar()"
+        aria-label="open sidebar"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <img
+          src="../assets/icon/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+          alt=""
+        />
+      </button>
+
+      <nav id="navbar">
+        <ul>
+          <li>
+            <button
+              id="close-sidebar-button"
+              onclick="closeSideBar()"
+              aria-label="close sidebar"
+            >
+              <img
+                src="../assets/icon/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+                alt=""
+              />
+            </button>
+          </li>
+          <li><a class="nav-links" href="../index.html">HOME</a></li>
+          <li><a class="nav-links" href="../pages/guide.html">Guides</a></li>
+          <li>
+            <a class="nav-links" href="../pages/characters.html">Characters</a>
+          </li>
+          <li><a class="nav-links" href="../pages/races.html">Races</a></li>
+          <li><a class="nav-links" href="../pages/about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="legal-container">
+      <section class="legal-content">
+        <h1>Terms of Use</h1>
+        <p>Last Updated: January 2026</p>
+
+        <h2>1. Introduction</h2>
+        <p>
+          Welcome to Uma Musume Fan Guide (Umaguide MM). This website is an
+          unofficial fan-made project created for informational and
+          entertainment purposes only.
+        </p>
+
+        <h2>2. Fan Project Disclaimer</h2>
+        <p>
+          This website is not affiliated with, endorsed by, or sponsored by
+          Cygames, Inc. or any official Uma Musume production entity. All
+          trademarks, character names, and related content belong to their
+          respective owners.
+        </p>
+
+        <h2>3. Content Usage</h2>
+        <p>
+          The guides, articles, and written content on this website are created
+          for educational and fan discussion purposes.
+        </p>
+        <ul>
+          <li>You may read and share links to the content.</li>
+          <li>
+            You may not copy, republish, or redistribute content without
+            permission.
+          </li>
+          <li>You may not use this website for unlawful activities.</li>
+        </ul>
+
+        <h2>4. Accuracy of Information</h2>
+        <p>
+          While we aim to provide accurate and updated game information, we do
+          not guarantee that all content is error-free. Game mechanics and data
+          may change over time.
+        </p>
+
+        <h2>5. External Links</h2>
+        <p>
+          This website may include links to third-party websites. We are not
+          responsible for the content, privacy policies, or practices of those
+          external websites.
+        </p>
+
+        <h2>6. Limitation of Liability</h2>
+        <p>
+          Use this website at your own discretion. We are not responsible for
+          any losses, damages, or misunderstandings resulting from the use of
+          information provided here.
+        </p>
+
+        <h2>7. Changes to These Terms</h2>
+        <p>
+          These Terms of Use may be updated at any time without prior notice.
+          Continued use of the website after changes are posted means you accept
+          the updated terms.
+        </p>
+
+        <h2>8. Contact</h2>
+        <p>
+          If you have questions regarding these Terms of Use, please visit the
+          <a href="../pages/about.html">About</a> page for contact information.
+        </p>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer-top">
+        <div class="footerquicklinks">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/guide.html">Guides</a></li>
+            <li><a href="../pages/characters.html">Characters</a></li>
+            <li><a href="../pages/races.html">Races</a></li>
+          </ul>
+        </div>
+
+        <div class="footerlegal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../pages/term-of-use.html">Terms of Use</a></li>
+            <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <span>
+          Unofficial fan-made website. Not affiliated with Cygames, Inc.
+        </span>
+        <span> No user accounts or personal data collection. </span>
+      </div>
+    </footer>
+  </body>
+</html>
