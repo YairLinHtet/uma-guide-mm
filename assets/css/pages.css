@@ -125,12 +125,16 @@
   gap: 1rem;
   padding: 2rem 0;
 }
+.character-page-intro h2 {
+  font-size: clamp(0.8rem, 0.6rem + 1vw, 1.5rem);
+}
 
 .character-page-intro p {
   padding: 1rem;
   background-color: rgb(217, 83, 83);
   color: white;
   border-radius: 1rem;
+  font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
 }
 
 .character-page-cards {
@@ -154,9 +158,13 @@
 
 .character-card img {
   width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 5px solid red;
   object-fit: cover;
+}
+.character-card h3 {
+  font-size: 1rem;
 }
 
 .character-card a {
@@ -169,8 +177,26 @@
 #characterSearch {
   width: 50%;
   padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   border: 3px solid black;
   border-radius: 1rem;
-  font-size: 0.4rem;
+  font-size: clamp(0.4rem, 0.229rem + 0.857vw, 1rem);
+}
+
+/*Card Animation*/
+@keyframes appear {
+  from {
+    opacity: 0.5;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.character-card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry cover 30%;
 }

@@ -8,7 +8,6 @@ media.addEventListener("change", (e) => updateNavbar(e));
 
 function updateNavbar(e) {
   const isMobile = e.matches;
-  console.log(isMobile);
   if (isMobile) {
     navBar.setAttribute("inert", "");
   } else {
