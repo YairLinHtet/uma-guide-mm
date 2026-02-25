@@ -200,3 +200,147 @@
   animation-timeline: view();
   animation-range: entry cover 30%;
 }
+
+/* Race Css */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  border: 2px solid #5d5fef;
+  background-color: rgb(102, 97, 97);
+  color: #dfdfe8;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%);
+  font-size: clamp(0.4rem, 0.229rem + 0.857vw, 1rem);
+}
+
+/* နှိပ်ထားတဲ့ Button ကို အရောင်ပြောင်းရန် */
+.filter-button.active,
+.filter-button:hover {
+  background-color: #5d5fef;
+  color: red;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#raceContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+  gap: 0.5rem;
+}
+
+.race-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  font-size: clamp(0.4rem, 0.229rem + 0.857vw, 1rem);
+  box-shadow: 3px rgba(117, 115, 115, 0.281);
+  background: #a7d2d9;
+  background: linear-gradient(
+    327deg,
+    rgba(167, 210, 217, 1) 19%,
+    rgba(175, 175, 196, 1) 47%,
+    rgba(170, 166, 227, 1) 76%
+  );
+}
+.race-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.G1 {
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(58, 58, 219);
+  color: white;
+  border-radius: 0.4rem;
+}
+.G2 {
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(224, 58, 56);
+  color: white;
+  border-radius: 0.4rem;
+}
+.G3 {
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(181, 148, 48);
+  color: white;
+  border-radius: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .race-img {
+    width: 50px;
+  }
+  .race-card {
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Guide Page Css */
+.guide-intro-text {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.guide-grid-cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2% 1%;
+  gap: 1rem;
+}
+.guide-cards {
+  background-color: red;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #c9d9a7;
+  background: #c9d9a7;
+  background: #c9d9a7;
+  background: #c2db8a;
+  background: #c2db8a;
+  background: linear-gradient(
+    152deg,
+    rgba(194, 219, 138, 1) 20%,
+    rgba(151, 209, 172, 1) 50%,
+    rgba(227, 174, 95, 1) 81%
+  );
+}
+.guide-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.guide-card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.guide-link {
+  padding: 0.5rem 2rem;
+  background-color: #5d5fef;
+  border-radius: 1rem;
+  color: white;
+}

@@ -1,0 +1,49 @@
+{
+    "G1_Races": [
+
+    {
+        "id":"arimakinen",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Arima Kinen",
+        "date" : "Late December",
+        "track" : "Truf",
+        "location" : "Nakayama",
+        "distance" : "Long",
+        "length" : "2500m",
+        "grade" : "G1"
+    }
+
+    ],
+
+    "G2_Races": [
+
+    {
+        "id":"Daily Hai Junior Stakes",
+        "image" : "/images/races/G2/Daily Hai Junior Stakes.png",
+        "name" : "Daily Hai Junior Stakes",
+        "date" : "Early November",
+        "track" : "Truf",
+        "location" : "Tokyo",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G2"
+    }
+
+    ],
+    
+    "G3_Races": [
+
+    {
+        "id":"Hakodate",
+        "image" : "/images/races/G3/Hakodate.png",
+        "name" : "Hakodate Junior Stakes",
+        "date" : "Late July",
+        "track" : "Truf",
+        "location" : "Hakodate",
+        "distance" : "Sprint",
+        "length" : "1200m",
+        "grade" : "G3"
+    }
+    
+    ]
+}

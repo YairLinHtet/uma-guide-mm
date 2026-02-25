@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Umaguide mm</title>
+
+    <!--Css and JS link-->
+    <!--Css link-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/pages.css" />
+
+    <!-- title logo  -->
+    <link rel="icon" type="titlelogo" href="../assets/icon/umaguidelogo.webp" />
+
+    <!--Js link-->
+    <script src="../js/main.js" defer></script>
+
+    <!-- link google font for myanmar -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <!--Logo-->
+    <header>
+      <div>
+        <a href="../index.html" class="logo-wrapper" aria-current="page">
+          <span class="logo-main">UMAGUIDE</span>
+          <span class="logo-mm">MM</span>
+        </a>
+      </div>
+
+      <button
+        id="open-sidebar-button"
+        onclick="openSideBar()"
+        aria-label="open sidebar"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <img
+          src="../assets/icon/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+          alt=""
+        />
+      </button>
+
+      <nav id="navbar">
+        <ul>
+          <li>
+            <button
+              id="close-sidebar-button"
+              onclick="closeSideBar()"
+              aria-label="close sidebar"
+            >
+              <img
+                src="../assets/icon/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+                alt=""
+              />
+            </button>
+          </li>
+
+          <li><a class="nav-links" href="../index.html">HOME</a></li>
+          <li><a class="nav-links" href="../pages/guide.html">Guides</a></li>
+          <li>
+            <a class="nav-links" href="../pages/characters.html">Characters</a>
+          </li>
+          <li><a class="nav-links" href="../pages/races.html">Races</a></li>
+          <li><a class="nav-links" href="../pages/about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <div class="control">
+        <input
+          type="text"
+          id="characterSearch"
+          placeholder="Search race name.."
+          onkeyup="searchRaces()"
+        />
+      </div>
+      <div class="filter-buttons">
+        <button
+          class="filter-button active"
+          onclick="filterByGrade('all', this)"
+        >
+          All</button
+        ><button class="filter-button" onclick="filterByGrade('g1', this)">
+          G1</button
+        ><button class="filter-button" onclick="filterByGrade('g2', this)">
+          G2</button
+        ><button class="filter-button" onclick="filterByGrade('g3', this)">
+          G3
+        </button>
+      </div>
+
+      <section id="raceContainer" class="race-container"></section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <section class="footer-top">
+        <div class="footerquicklinks">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="../index.html">Home Page</a></li>
+            <li><a href="../pages/guide.html">Guides Page</a></li>
+            <li>
+              <a class="nav-links" href="../pages/characters.html">
+                Characters Page
+              </a>
+            </li>
+            <li>
+              <a class="nav-links" href="../pages/races.html">Races Page</a>
+            </li>
+            <li>
+              <a class="nav-links" href="../pages/about.html">About Page</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footerpopular">
+          <h4>Popular</h4>
+          <ul>
+            <li>
+              <a href="../pages/characters/gold-ship.html">Gold Ship</a>
+            </li>
+            <li>
+              <a href="../pages/guides/beginer-guide.html">Beginner Guide</a>
+            </li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+
+        <div class="footerlegal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../pages/term-of-use.html">Terms of Use</a></li>
+            <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <span>
+          &copy; 2026 Uma Musume Fan Guide. Unofficial fan-made website.
+        </span>
+        <span> No user accounts or personal data collection. </span>
+      </div>
+    </footer>
+  </body>
+</html>
