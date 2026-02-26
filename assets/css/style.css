@@ -25,6 +25,9 @@ body {
   font-family: "Padauk", sans-serif;
   font-weight: 700;
 }
+p {
+  line-height: 2.2;
+}
 
 main {
   padding: 0 10%;
@@ -186,6 +189,12 @@ hr {
   margin-top: 1rem;
 }
 @media (max-width: 800px) {
+  main {
+    padding: 0 5%;
+  }
+  header {
+    padding: 0 5%;
+  }
   header nav {
     position: fixed;
     top: 0;

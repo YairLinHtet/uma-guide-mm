@@ -76,6 +76,9 @@
   background-color: rgb(192, 202, 237);
   border: 2px solid black;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .why-popular-card .card-heading {
   font-size: clamp(1rem, 0.857rem + 0.714vw, 1.5rem);
@@ -96,10 +99,10 @@
 }
 
 .legal-content h1 {
-  font-size: clamp(1.25rem, 1.071rem + 0.893vw, 1.875rem);
+  font-size: clamp(2rem, 1.714rem + 1.429vw, 3rem);
 }
 .legal-content h2 {
-  font-size: clamp(1rem, 0.143rem + 4.286vw, 4rem);
+  font-size: clamp(1.2rem, 0.829rem + 1.857vw, 2.5rem);
 }
 
 .legal-content p {
@@ -154,6 +157,7 @@
   padding: 1rem 0;
   border-radius: 1rem;
   color: white;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
 .character-card img {
@@ -262,6 +266,8 @@
   max-width: 100%;
   height: auto;
   object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid black;
 }
 
 .G1 {
@@ -297,6 +303,7 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  flex-grow: 1;
 }
 
 .guide-grid-cards {
@@ -305,6 +312,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 2% 1%;
   gap: 1rem;
+  margin-bottom: 3rem;
 }
 .guide-cards {
   background-color: red;
@@ -328,9 +336,17 @@
     rgba(227, 174, 95, 1) 81%
   );
 }
+
+.guide-intro-text {
+  font-size: clamp(0.8rem, 0.686rem + 0.571vw, 1.2rem);
+}
+
 .guide-heading {
-  font-size: 2rem;
+  font-size: clamp(1.3rem, 1.1rem + 1vw, 2rem);
   font-weight: bold;
+}
+.guide-text {
+  font-size: clamp(0.7rem, 0.614rem + 0.429vw, 1rem);
 }
 .guide-card-img {
   width: 100%;
@@ -339,8 +355,63 @@
 }
 
 .guide-link {
+  margin-top: auto;
   padding: 0.5rem 2rem;
-  background-color: #5d5fef;
+  background-color: #7b7cd6;
   border-radius: 1rem;
   color: white;
+  font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
+}
+
+/* Team Page Css */
+.team-card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 1rem;
+  padding: 2em 0;
+}
+.team-card {
+  background-color: #924646; /* Dark red background */
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  color: #9b99ff; /* Light purple-blue text */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.profile-img {
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.social {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.skills {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.info {
+  text-align: center;
+}
+@media (max-width: 450px) {
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
 }
