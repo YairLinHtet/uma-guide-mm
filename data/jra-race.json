@@ -6,13 +6,267 @@
         "image" : "/images/races/G1/arimakinen.png",
         "name" : "Arima Kinen",
         "date" : "Late December",
-        "track" : "Truf",
+        "track" : "Turf",
         "location" : "Nakayama",
         "distance" : "Long",
         "length" : "2500m",
         "grade" : "G1"
+    },
+    {
+        
+        "id":"asahihaifuturitystakes",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Asahi Hai Futurity Stakes",
+        "date" : "Early December",
+        "track" : "Turf",
+        "location" : "Hanshin",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"
+    },
+    {
+        "id":"hansshinjuvenilefillies",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Hansshin Juvenile Fillies",
+        "date" : "Early December",
+        "track" : "Turf",
+        "location" : "Hanshin",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1" 
+    },
+    {
+      "id":"hopefulstakes",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Hopeful Stakes",
+        "date" : "Late December",
+        "track" : "Turf",
+        "location" : "Nakayama",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"okasho",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Oka Sho",
+        "date" : "Early April",
+        "track" : "Turf",
+        "location" : "Hanshin",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"   
+    },
+    {
+       "id":"satsukisho",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Satsuki Sho",
+        "date" : "Early April",
+        "track" : "Turf",
+        "location" : "Nakayama",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"nhkmilecup",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Nhk Mile Cup",
+        "date" : "Early May",
+        "track" : "Turf",
+        "location" : "Tokyo",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"japaneseoaks",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Japanese Oaks",
+        "date" : "Late May",
+        "track" : "Turf",
+        "location" : "Tokyo",
+        "distance" : "Medium",
+        "length" : "2400m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"tokyoyushun(japanesederby)",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Tokyo Yushun (Japanese Derby)",
+        "date" : "Late May",
+        "track" : "Turf",
+        "location" : "Tokyo",
+        "distance" : "Medium",
+        "length" : "2400m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"yasudakinen",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Yasuda Kinen",
+        "date" : "Early June",
+        "track" : "Turf",
+        "location" : "Tokyo",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"takarazukakinen",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Takarazuka Kinen",
+        "date" : "Late June",
+        "track" : "Turf",
+        "location" : "Hanshin",
+        "distance" : "Medium",
+        "length" : "2400m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"japandirtderby",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Japan Dirt Derby",
+        "date" : "Early July",
+        "track" : "Dirt",
+        "location" : "Ooi",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"sprintersstakes",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Sprinters Stakes",
+        "date" : "Late September",
+        "track" : "Turf",
+        "location" : "Nakayama",
+        "distance" : "Short",
+        "length" : "1200m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"kikukasho",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Kikua Sho",
+        "date" : "Late October",
+        "track" : "Turf",
+        "location" : "Kyoto",
+        "distance" : "Long",
+        "length" : "3000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"shukasho",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Shuka Sho",
+        "date" : "Late October",
+        "track" : "Turf",
+        "location" : "Kyoto",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"tennosho(autumn)",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Tenno Sho(Autumn)",
+        "date" : "Late October",
+        "track" : "Turf",
+        "location" : "Tokyo",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"jbcclassic",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "JBC Classic",
+        "date" : "Early November",
+        "track" : "Dirt",
+        "location" : "Varies",
+        "distance" : "Varies",
+        "length" : "Varies",
+        "grade" : "G1"   
+    },
+    {
+        "id":"jbcladies'classic",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "JBC Ladies'Classic",
+        "date" : "Early November",
+        "track" : "Dirt",
+        "location" : "Varies",
+        "distance" : "Mile",
+        "length" : "Varies",
+        "grade" : "G1"   
+    },
+    {
+        "id":"jbcsprint",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "JBC Sprint",
+        "date" : "Early November",
+        "track" : "Dirt",
+        "location" : "Varies",
+        "distance" : "Short",
+        "length" : "Varies",
+        "grade" : "G1"   
+    },
+     {
+        "id":"queenelizabeth||cup",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Queen Elizabeth || Cup",
+        "date" : "Early November",
+        "track" : "Turf",
+        "location" : "Kyoto",
+        "distance" : "Medium",
+        "length" : "2200m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"japancup",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Japan Cup",
+        "date" : "Late December",
+        "track" : "Turf",
+        "location" : "Tokyo",
+        "distance" : "Medium",
+        "length" : "2400m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"milechampionship",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Mile Championship",
+        "date" : "Late November",
+        "track" : "Turf",
+        "location" : "Kyoto",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"championscup",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Champions Cup",
+        "date" : "Early December",
+        "track" : "Dirt",
+        "location" : "Chukyo",
+        "distance" :"Mile",
+        "length" : "1800m",
+        "grade" : "G1"   
+    },
+     {
+        "id":"tokyodaishoten",
+        "image" : "/images/races/G1/arimakinen.png",
+        "name" : "Tokyo Daishoten",
+        "date" : "Late December",
+        "track" : "Dirt",
+        "location" : "Ooi",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
     }
-
+     
     ],
 
     "G2_Races": [
