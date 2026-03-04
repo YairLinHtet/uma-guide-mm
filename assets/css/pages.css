@@ -178,6 +178,11 @@
   border-radius: 1rem;
 }
 
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
 #characterSearch {
   width: 50%;
   padding: 0.5rem 1rem;
@@ -214,10 +219,9 @@
 }
 
 .filter-button {
-  padding: 10px 20px;
-  border: 2px solid #5d5fef;
-  background-color: rgb(102, 97, 97);
-  color: #dfdfe8;
+  padding: 10px 10px;
+  border: 2px solid #16176b;
+  color: #030324;
   cursor: pointer;
   border-radius: 5px;
   font-weight: bold;
@@ -230,7 +234,7 @@
 .filter-button.active,
 .filter-button:hover {
   background-color: #5d5fef;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 .control {
@@ -263,6 +267,9 @@
     rgba(175, 175, 196, 1) 47%,
     rgba(170, 166, 227, 1) 76%
   );
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry cover 30%;
 }
 .race-img {
   max-width: 100%;
@@ -367,7 +374,7 @@
   background-color: #7b7cd6;
   border-radius: 1rem;
   color: white;
-  font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
+  font-size: clamp(0.8rem, 0.743rem + 0.286vw, 1rem);
 }
 
 /* Team Page Css */
@@ -488,4 +495,263 @@
 }
 .info .test {
   background-color: rgb(223, 31, 31);
+}
+
+/* Character Page Css */
+.characters-main {
+  padding-bottom: 3rem;
+}
+
+.character-page-intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+.character-page-intro h2 {
+  font-size: clamp(0.8rem, 0.6rem + 1vw, 1.5rem);
+}
+
+.character-page-intro p {
+  padding: 1rem;
+  background-color: rgb(217, 83, 83);
+  color: white;
+  border-radius: 1rem;
+  font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
+}
+
+.character-page-cards {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 1rem;
+}
+.character-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 122, 211);
+  gap: 0.5rem;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  color: white;
+}
+
+.character-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid red;
+  object-fit: cover;
+}
+.character-card h3 {
+  font-size: 1rem;
+}
+
+.character-card a {
+  padding: 0.2rem 1rem;
+  background-color: rgb(220, 118, 118);
+  color: white;
+  border-radius: 1rem;
+}
+
+#characterSearch {
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  border: 3px solid black;
+  border-radius: 1rem;
+  font-size: clamp(0.4rem, 0.229rem + 0.857vw, 1rem);
+  text-align: center;
+}
+
+/*Card Animation*/
+@keyframes appear {
+  from {
+    opacity: 0.5;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.character-card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry cover 30%;
+}
+.why-popular-card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry cover 30%;
+}
+
+/* Character Profile page css */
+
+.profile-bio-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-bio {
+  display: flex;
+  padding: 1rem;
+  gap: 3rem;
+}
+.profile-parent {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.profile-images-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.profile-images-name img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.profile-images-name p {
+  font-size: 1rem;
+}
+.profile-bio ul li {
+  margin-bottom: 0.5rem;
+}
+.profile-bio ul li p {
+  font-size: clamp(0.6rem, 0.486rem + 0.571vw, 1rem);
+}
+.profile-parent p {
+  margin-top: 1rem;
+  font-size: clamp(0.5rem, 0.357rem + 0.714vw, 1rem);
+  background-color: rgb(86, 199, 76);
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.profile-upper {
+  margin-bottom: 2rem;
+}
+.profile-cover-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .profile-bio-content {
+    flex-direction: column;
+  }
+  .profile-images-name img {
+    max-width: 100px;
+  }
+  .profile-images-name {
+    margin-right: auto;
+  }
+  .profile-bio {
+    margin-right: auto;
+  }
+}
+
+/* Guide CSs */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0;
+  gap: 2rem;
+}
+
+.guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.guide-intro img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.career-guide img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.home-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.home-guide ul li {
+  list-style: circle;
+  padding: 1rem 0;
+}
+
+.career {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.career-guide {
+  padding: 2rem 0;
+}
+
+.career-lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.career-lower ul ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 2rem;
+}
+.career-lower ul ul li {
+  list-style: circle;
+}
+
+.career-lower .guide-list-first {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.guide-list-second {
+  padding: 1rem 0;
+  gap: 1rem;
+}
+@media (max-width: 800px) {
+  .guide {
+    flex-direction: column;
+  }
+  .home-guide ul li {
+    padding: 0.3rem 0;
+  }
+}
+.guide-intro-heading {
+  font-size: clamp(1rem, 0.857rem + 0.714vw, 1.5rem);
+  font-weight: bold;
+}
+.guide-intro-p {
+  font-size: clamp(0.7rem, 0.614rem + 0.429vw, 1rem);
 }

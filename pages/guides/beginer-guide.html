@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="mm">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Umaguide mm</title>
+
+    <!--Css and JS link-->
+    <!--Css link-->
+    <link rel="stylesheet" href="/../assets/css/style.css" />
+    <link rel="stylesheet" href="/../assets/css/pages.css" />
+
+    <!-- title logo  -->
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/../assets/icon/umaguidelogo.webp"
+    />
+
+    <!--Js link-->
+    <script src="/../js/main.js" defer></script>
+
+    <!-- link google font for myanmar -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- header section  -->
+    <!--Logo-->
+    <header>
+      <div>
+        <a href="/../index.html" class="logo-wrapper" aria-current="page">
+          <span class="logo-main">UMAGUIDE</span>
+          <span class="logo-mm">MM</span>
+        </a>
+      </div>
+
+      <button
+        id="open-sidebar-button"
+        onclick="openSideBar()"
+        aria-label="open sidebar"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <img
+          src="/../assets/icon/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+          alt=""
+        />
+      </button>
+
+      <nav id="navbar">
+        <ul>
+          <li>
+            <button
+              id="close-sidebar-button"
+              onclick="closeSideBar()"
+              aria-label="close sidebar"
+            >
+              <img
+                src="/./assets/icon/cancel_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+                alt=""
+              />
+            </button>
+          </li>
+
+          <li><a class="nav-links" href="/../index.html">HOME</a></li>
+          <li><a class="nav-links" href="/../pages/guide.html">Guides</a></li>
+          <li>
+            <a class="nav-links" href="/../pages/characters.html">Characters</a>
+          </li>
+          <li><a class="nav-links" href="/../pages/races.html">Races</a></li>
+          <li><a class="nav-links" href="/../pages/about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div id="overlay" onclick="closeSideBar()" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <section class="guide-intro">
+        <!-- Home -->
+        <div class="screen">
+          <h2 class="guide-intro-heading">၁။ Home (ပင်မစာမျက်နှာ)</h2>
+          <div class="guide">
+            <img src="/images/guide/1000018434.webp" alt="" />
+            <div class="home-guide">
+              <p class="guide-intro-p">
+                ဂိမ်းထဲကို စတင်ဝင်ရောက်လိုက်တာနဲ့ မြင်တွေ့ရမယ့် နေရာဖြစ်ပါတယ်။
+              </p>
+              <ul class="guide-intro-p">
+                <li>
+                  မိမိနှစ်သက်တဲ့ မြင်းမလေးကို ဝတ်စုံလဲပြီး Home Screen မှာ
+                  တင်ထားလို့ရပါတယ်။
+                </li>
+                <li>
+                  ဒီနေရာမှာ လက်ဆောင်တွေ (Presents) လက်ခံတာ၊ Missions (တာဝန်များ)
+                  စစ်ဆေးတာနဲ့ လက်ရှိဖြစ်ပေါ်နေတဲ့ Events (ပွဲများ) ကို
+                  ကြည့်ရှုနိုင်ပါတယ်။
+                </li>
+
+                <li>
+                  ဒီဂိမ်းရဲ့ အဓိက Gameplay ကတော့ Career Mode ပဲ ဖြစ်ပါတယ်။
+                  သင်ကစားရမယ့် အချိန်ရဲ့ ၉၉ ရာခိုင်နှုန်းလောက်ကို ဒီ Mode မှာပဲ
+                  အချိန်ကုန်ဆုံးရမှာပါ။
+                </li>
+                <li>
+                  Career Mode ကစားဖို့အတွက် TP (Energy) ကို အသုံးပြုရမှာဖြစ်ပြီး
+                  Team Trial နဲ့ တခြား ကစားနည်းတွေအတွက်တော့ RP ကို အသုံးပြုရမှာ
+                  ဖြစ်ပါတယ်။
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Race  -->
+        <div class="screen">
+          <h2 class="guide-intro-heading">၂။ Race (ပြိုင်ပွဲများ)</h2>
+          <div class="guide">
+            <img src="/images/guide/1000018435.webp" alt="" />
+            <div class="home-guide">
+              <p class="guide-intro-p">
+                Trainer တစ်ယောက်ရဲ့ အဓိကအလုပ်က ပြိုင်ပွဲဝင်ဖို့ပါ။ ဒီ Section
+                မှာ အပိုင်း ၃ ပိုင်း ခွဲထားလေ့ရှိပါတယ်
+              </p>
+              <ul class="guide-intro-p">
+                <li>
+                  Team Stadium: တခြား Player တွေနဲ့ မိမိရဲ့ မြင်းမလေးတွေကို
+                  အသင်းဖွဲ့ပြီး ယှဉ်ပြိုင်ရတာပါ။ အဆင့် (Class) တက်လေ ဆုလာဘ်တွေ
+                  ပိုရလေပါပဲ။။
+                </li>
+                <li>
+                  Daily Race: ဂိမ်းထဲမှာ လိုအပ်တဲ့ Money နဲ့ Support Points တွေ
+                  ရှာဖွေဖို့အတွက် နေ့စဉ် ဝင်ရောက်ယှဉ်ပြိုင်ရမယ့် နေရာပါ။
+                </li>
+                <li>
+                  Legend Race: တစ်ခါတစ်ရံမှလာတဲ့ Event ဖြစ်ပြီး နာမည်ကြီး
+                  မြင်းမလေးတွေကို အနိုင်ယူပြီး သူတို့ရဲ့ Character Pieces
+                  (ဖုန်း) တွေကို စုဆောင်းရတာ ဖြစ်ပါတယ်။
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scout  -->
+        <div class="screen">
+          <h2 class="guide-intro-heading">
+            ၃။ Scout (လူသစ်စုဆောင်းခြင်း/Gacha)
+          </h2>
+          <div class="guide">
+            <img src="/images/guide/1000018436.webp" alt="" />
+            <div class="home-guide">
+              <p class="guide-intro-p">
+                မိမိအသင်းအတွက် မြင်းမလေးသစ်တွေနဲ့ Support Cards တွေ ရယူဖို့
+                Gacha (ကံစမ်းမဲ) နှိပ်ရမယ့် နေရာပါ။
+              </p>
+              <ul class="guide-intro-p">
+                <li>
+                  Uma Musume Selection: မြင်းမလေး (Characters) အသစ်တွေ ရယူဖို့။
+                </li>
+                <li>
+                  Support Card Selection: မြင်းမလေးတွေကို လေ့ကျင့်ပေးတဲ့နေရာမှာ
+                  အရေးအကြီးဆုံးဖြစ်တဲ့ Support Cards တွေ ရယူဖို့ ဖြစ်ပါတယ်။
+                </li>
+                <li>
+                  အကြံပြုချက် - Player အသစ်အနေနဲ့ ကောင်းမွန်တဲ့ Support Card
+                  တွေရှိထားမှသာ သန်မာတဲ့ မြင်းမလေးတွေကို လေ့ကျင့်ပေးနိုင်မှာ
+                  ဖြစ်ပါတယ်။
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Story  -->
+        <div class="screen">
+          <h2 class="guide-intro-heading">၄။ Story (ဇာတ်လမ်းကဏ္ဍ)</h2>
+          <div class="guide">
+            <img src="/images/guide/1000018437.webp" alt="" />
+            <div class="home-guide">
+              <p class="guide-intro-p">
+                Uma Musume ရဲ့ စွဲမက်ဖွယ်ကောင်းတဲ့ ဇာတ်လမ်းတွေကို ဒီမှာ
+                ဖတ်ရှုနိုင်ပါတယ်။
+              </p>
+              <ul class="guide-intro-p">
+                <li>
+                  Main Story: ဂိမ်းရဲ့ အဓိက ဇာတ်လမ်းကြီး ဖြစ်ပြီး ဖတ်ရှုပြီးပါက
+                  သီချင်းအသစ် (Music Video) တွေနဲ့ Support Cards တွေ
+                  လက်ဆောင်ရတတ်ပါတယ်။
+                </li>
+                <li>
+                  Character Story: မိမိပိုင်ဆိုင်ထားတဲ့
+                  မြင်းမလေးတစ်ယောက်ချင်းစီရဲ့ ကိုယ်ပိုင်ဘဝ ဇာတ်ကြောင်းလေးတွေပါ။
+                  ဖတ်ပြီးတိုင်း Jewel (ကျောက်ခဲ) တွေ ရရှိမှာ ဖြစ်ပါတယ်။
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Enhance  -->
+        <div class="screen">
+          <h2 class="guide-intro-heading">၅။ Enhance (မြှင့်တင်ခြင်း)</h2>
+          <div class="guide">
+            <img src="/images/guide/1000018438.webp" alt="" />
+            <div class="home-guide">
+              <p class="guide-intro-p">
+                ဒါကတော့ မိမိရဲ့ မြင်းမလေးတွေနဲ့ ကတ်တွေကို ပိုမိုသန်မာလာအောင်
+                ပြုလုပ်ရမယ့် Workshop ပါပဲ။
+              </p>
+              <ul class="guide-intro-p">
+                <li>
+                  Strengthen Support Card: Support Card တွေရဲ့ Level ကို
+                  မြှင့်တင်တာပါ။
+                </li>
+                <li>
+                  Awaken/Limit Break: မြင်းမလေးတွေရဲ့ Skill level တွေကို
+                  တိုးမြှင့်တာနဲ့ ကြယ်ပွင့် (Rarity) မြှင့်တင်တာတွေကို ဒီနေရာမှာ
+                  လုပ်ဆောင်ရမှာ ဖြစ်ပါတယ်။
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="career-guide">
+        <div class="career">
+          <h2 class="guide-intro-heading">Career Guide</h2>
+          <p class="guide-intro-p">
+            Career Mode ဆိုတာ သတ်မှတ်ထားတဲ့ ရက်သတ္တပတ် (Turns)
+            အကန့်အသတ်အတွင်းမှာ မိမိရဲ့ မြင်းမလေးကို အသန်မာဆုံးဖြစ်အောင်
+            လေ့ကျင့်ပေးပြီး နောက်ဆုံးပန်းတိုင်ဖြစ်တဲ့ URA Finals (သို့မဟုတ်
+            သက်ဆိုင်ရာ Scenario ပွဲစဉ်) ကို အောင်နိုင်အောင် ကြိုးစားရတဲ့ mode
+            ဖြစ်ပါတယ်။
+          </p>
+        </div>
+        <div class="career-lower">
+          <img src="/images/guide/1000018434.webp" alt="" />
+          <ul class="guide-list-first guide-intro-p">
+            <!-- Turn -->
+            <li>
+              <h3 class="guide-intro-heading">Turn</h3>
+              <p>
+                Career တစ်ခုမှာ အချိန်ကို Turn နဲ့ တိုင်းတာပါတယ်။ တစ်လမှာ
+                အပိုင်းနှစ်ပိုင်း (ပထမလဝက်နဲ့ ဒုတိယလဝက်) ခွဲထားပြီး Turn
+                တစ်ခုစီတိုင်းမှာ သင်လုပ်ဆောင်မယ့် အလုပ်တစ်ခုကို ရွေးချယ်ရမှာပါ။
+                အချိန်ကန့်သတ်ချက်ရှိတာကြောင့် Turn တိုင်းကို အကျိုးရှိရှိ
+                အသုံးချဖို့ လိုအပ်ပါတယ်။
+              </p>
+            </li>
+
+            <!-- Energy -->
+            <li>
+              <h3 class="guide-intro-heading">Energy</h3>
+              <p>မြင်းမလေးရဲ့ ကျန်းမာရေးနဲ့ အားအင်ကို ဖော်ပြပါတယ်။</p>
+              <ul class="guide-list-second">
+                <li>
+                  လေ့ကျင့်ခန်းဆင်းရင် Energy လျော့နည်းသွားပြီး Energy နည်းလေလေ
+                  လေ့ကျင့်ခန်းလုပ်တဲ့အခါ Failure (ကျရှုံးဖို့) ရခိုင်နှုန်း
+                  များလေလေ ဖြစ်ပါတယ်။
+                </li>
+                <li>
+                  Energy အရမ်းနည်းနေရင် လေ့ကျင့်ခန်းမလုပ်ဘဲ အနားပေးဖို့
+                  လိုအပ်ပါတယ်။
+                </li>
+              </ul>
+            </li>
+
+            <!-- Mood -->
+            <li>
+              <h3 class="guide-intro-heading">Mood</h3>
+              <p>
+                မြင်းမလေးရဲ့ စိတ်အခြေအနေက လေ့ကျင့်ခန်းရလဒ်နဲ့ ပြိုင်ပွဲရလဒ်အပေါ်
+                တိုက်ရိုက်သက်ရောက်မှုရှိပါတယ်။
+              </p>
+              <ul class="guide-list-second">
+                <li>
+                  Mood အဆင့် ၅ဆင့် (Great, Good, Normal, Bad, Awful) ရှိပြီး၊။
+                  Great (အကောင်းဆုံး) အခြေအနေမှာ ရှိနေရင် လေ့ကျင့်ခန်းလုပ်တဲ့အခါ
+                  Stats တွေ ပိုတိုးသလို၊ ပြိုင်ပွဲမှာလည်း စွမ်းဆောင်ရည် ၄
+                  ရာခိုင်နှုန်းခန့် ပိုမိုကောင်းမွန်စေပါတယ်။
+                </li>
+              </ul>
+            </li>
+
+            <!-- Rest -->
+            <li>
+              <h3 class="guide-intro-heading">Rest</h3>
+              <p>
+                Energy ပြန်ပြည့်အောင် လုပ်ဆောင်တာ ဖြစ်ပါတယ်။ အနားယူလိုက်ရင်
+                Energy 30 ကနေ 70 ကြား ပြန်တက်လာတတ်ပါတယ်။ တစ်ခါတစ်ရံမှာ
+                ကံကောင်းရင် မြင်းမလေးက နှစ်နှစ်ခြိုက်ခြိုက် အိပ်ပျော်သွားပြီး
+                (Deep Sleep) Energy တွေအများကြီး ပြန်ပြည့်လာသလို စိတ်အခြေအနေလည်း
+                ပိုကောင်းလာတတ်ပါတယ်။
+              </p>
+            </li>
+
+            <!-- Infirmary -->
+            <li>
+              <h3 class="guide-intro-heading">Infirmary</h3>
+              <p>
+                လေ့ကျင့်ခန်းလုပ်ရင်းနဲ့ဖြစ်ဖြစ်၊ Energy နည်းနေချိန်မှာဖြစ်ဖြစ်
+                မြင်းမလေးမှာ Bad Status (ဥပမာ- အစာလွန်ကဲခြင်း၊ အိပ်မပျော်ခြင်း၊
+                ခြေထောက်နာခြင်း) စတဲ့ ရောဂါတွေ ရနိုင်ပါတယ်။ ဒီလိုဖြစ်လာရင်
+                Infirmary ကိုသွားပြီး ကုသမှသာ လေ့ကျင့်ခန်းတွေ ပုံမှန်အတိုင်း
+                ပြန်လုပ်နိုင်မှာပါ။
+              </p>
+            </li>
+
+            <!-- Recreation -->
+            <li>
+              <h3 class="guide-intro-heading">Recreation</h3>
+              <p>ဒါကတော့ မြင်းမလေးကို အပြင်သွားလည်ခိုင်းတာ ဖြစ်ပါတယ်။</p>
+              <ul class="guide-list-second">
+                <li>
+                  Energy အနည်းငယ် ပြန်ပြည့်စေတဲ့အပြင် Mood ကို အဓိက
+                  မြှင့်တင်ပေးတာပါ။
+                </li>
+                <li>
+                  အပြင်သွားလည်တဲ့အခါ ကံကောင်းရင် စွမ်းဆောင်ရည်တိုးစေတဲ့ Event
+                  ကောင်းလေးတွေ ကြုံတွေ့ရတတ်ပါတယ်။
+                </li>
+              </ul>
+            </li>
+
+            <!-- Training -->
+            <li>
+              <h3 class="guide-intro-heading">Training</h3>
+              <p>
+                ဒါကတော့ Stats တွေ တိုးအောင်လုပ်ရမယ့် အဓိကနေရာပါ။ Speed, Stamina,
+                Power, Guts နဲ့ Intelligence ဆိုပြီး (၅) မျိုးရှိပါတယ်။
+              </p>
+              <ul class="guide-list-second">
+                <li>
+                  မိမိပြိုင်မယ့် အကွာအဝေး (Distance) အလိုက် လိုအပ်တဲ့ Stat ကို
+                  အဓိကထား မြှင့်တင်ရပါမယ်
+                </li>
+                <li>
+                  Support Card တွေ ရှိနေတဲ့နေရာမှာ လေ့ကျင့်ခန်းလုပ်ရင် Bonus
+                  Stats တွေ ပိုရပါတယ်။
+                </li>
+              </ul>
+            </li>
+
+            <!-- Race -->
+            <li>
+              <h3 class="guide-intro-heading">Race</h3>
+              <p>
+                Scenario က သတ်မှတ်ထားတဲ့ မဖြစ်မနေဝင်ရမယ့် ပြိုင်ပွဲတွေအပြင်
+                မိမိစိတ်ကြိုက် ဝင်ပြိုင်လို့ရတဲ့ ပွဲတွေရှိပါတယ်။
+              </p>
+              <ul class="guide-list-second">
+                <li>
+                  ဒီပွဲတွေမှာ နိုင်ရင် Skill Points တွေနဲ့ Fans အရေအတွက်ကို
+                  ရရှိမှာဖြစ်ပါတယ်။
+                </li>
+                <li>
+                  Fans များမှသာ မြင်းမလေးရဲ့ Skill Level တွေ တိုးတက်လာမှာ
+                  ဖြစ်ပါတယ်။
+                </li>
+              </ul>
+            </li>
+
+            <!-- Skill -->
+            <li>
+              <h3 class="guide-intro-heading">Skill</h3>
+              <p>
+                ပြိုင်ပွဲတွေနဲ့ လေ့ကျင့်ခန်းတွေကနေရတဲ့ Skill Points တွေကို
+                သုံးပြီး Skill တွေကို ဝယ်ယူရမှာပါ။
+              </p>
+              <ul class="guide-list-second">
+                <li>
+                  နေရာလုတဲ့အခါ သုံးတဲ့ Skill၊ အရှိန်တင်တဲ့ Skill နဲ့ Stamina
+                  ပြန်ဖြည့်တဲ့ Skill ဆိုပြီး အမျိုးမျိုးရှိပါတယ်။
+                </li>
+                <li>
+                  Carat တွေကို အသုံးချပြီး ရရှိထားတဲ့ ကောင်းမွန်တဲ့ Support Card
+                  တွေကနေ Skill Hints တွေ ရယူထားဖို့ အရေးကြီးပါတယ်။
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <section class="footer-top">
+        <div class="footerquicklinks">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/../index.html">Home Page</a></li>
+            <li><a href="/../pages/guide.html">Guides Page</a></li>
+            <li>
+              <a class="nav-links" href="/../pages/characters.html">
+                Characters Page
+              </a>
+            </li>
+            <li>
+              <a class="nav-links" href="/../pages/races.html">Races Page</a>
+            </li>
+            <li>
+              <a class="nav-links" href="/../pages/about.html">About Page</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footerpopular">
+          <h4>Popular</h4>
+          <ul>
+            <li>
+              <a href="/../pages/characters/gold-ship.html">Gold Ship</a>
+            </li>
+            <li>
+              <a href="/../pages/guides/beginer-guide.html">Beginner Guide</a>
+            </li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+
+        <div class="footerlegal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/../pages/term-of-use.html">Terms of Use</a></li>
+            <li><a href="/../pages/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <span>
+          &copy; 2026 Uma Musume Fan Guide. Unofficial fan-made website.
+        </span>
+        <span> No user accounts or personal data collection. </span>
+      </div>
+    </footer>
+  </body>
+</html>

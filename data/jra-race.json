@@ -1,21 +1,9 @@
 {
     "G1_Races": [
-
-    {
-        "id":"arimakinen",
-        "image" : "/images/races/G1/arimakinen.png",
-        "name" : "Arima Kinen",
-        "date" : "Late December",
-        "track" : "Turf",
-        "location" : "Nakayama",
-        "distance" : "Long",
-        "length" : "2500m",
-        "grade" : "G1"
-    },
     {
         
         "id":"asahihaifuturitystakes",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1022_00.png",
         "name" : "Asahi Hai Futurity Stakes",
         "date" : "Early December",
         "track" : "Turf",
@@ -26,7 +14,7 @@
     },
     {
         "id":"hansshinjuvenilefillies",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1021_00.png",
         "name" : "Hansshin Juvenile Fillies",
         "date" : "Early December",
         "track" : "Turf",
@@ -37,7 +25,7 @@
     },
     {
       "id":"hopefulstakes",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1024_00.png",
         "name" : "Hopeful Stakes",
         "date" : "Late December",
         "track" : "Turf",
@@ -48,7 +36,7 @@
     },
     {
         "id":"okasho",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1004_00.png",
         "name" : "Oka Sho",
         "date" : "Early April",
         "track" : "Turf",
@@ -59,7 +47,7 @@
     },
     {
        "id":"satsukisho",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1005_00.png",
         "name" : "Satsuki Sho",
         "date" : "Early April",
         "track" : "Turf",
@@ -70,8 +58,8 @@
     },
     {
         "id":"nhkmilecup",
-        "image" : "/images/races/G1/arimakinen.png",
-        "name" : "Nhk Mile Cup",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1007_00.png",
+        "name" : "NHK Mile Cup",
         "date" : "Early May",
         "track" : "Turf",
         "location" : "Tokyo",
@@ -81,7 +69,7 @@
     },
      {
         "id":"japaneseoaks",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1009_00.png",
         "name" : "Japanese Oaks",
         "date" : "Late May",
         "track" : "Turf",
@@ -92,7 +80,7 @@
     },
      {
         "id":"tokyoyushun(japanesederby)",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1010_00.png",
         "name" : "Tokyo Yushun (Japanese Derby)",
         "date" : "Late May",
         "track" : "Turf",
@@ -103,7 +91,7 @@
     },
      {
         "id":"yasudakinen",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1011_00.png",
         "name" : "Yasuda Kinen",
         "date" : "Early June",
         "track" : "Turf",
@@ -114,7 +102,7 @@
     },
      {
         "id":"takarazukakinen",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1012_00.png",
         "name" : "Takarazuka Kinen",
         "date" : "Late June",
         "track" : "Turf",
@@ -125,7 +113,7 @@
     },
      {
         "id":"japandirtderby",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1102_00.png",
         "name" : "Japan Dirt Derby",
         "date" : "Early July",
         "track" : "Dirt",
@@ -136,7 +124,7 @@
     },
      {
         "id":"sprintersstakes",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1013_00.png",
         "name" : "Sprinters Stakes",
         "date" : "Late September",
         "track" : "Turf",
@@ -147,7 +135,7 @@
     },
     {
         "id":"kikukasho",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1015_00.png",
         "name" : "Kikua Sho",
         "date" : "Late October",
         "track" : "Turf",
@@ -158,7 +146,7 @@
     },
     {
         "id":"shukasho",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1014_00.png",
         "name" : "Shuka Sho",
         "date" : "Late October",
         "track" : "Turf",
@@ -169,7 +157,7 @@
     },
     {
         "id":"tennosho(autumn)",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1016_00.png",
         "name" : "Tenno Sho(Autumn)",
         "date" : "Late October",
         "track" : "Turf",
@@ -180,7 +168,7 @@
     },
     {
         "id":"jbcclassic",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1105_00.png",
         "name" : "JBC Classic",
         "date" : "Early November",
         "track" : "Dirt",
@@ -191,7 +179,7 @@
     },
     {
         "id":"jbcladies'classic",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1103_00.png",
         "name" : "JBC Ladies'Classic",
         "date" : "Early November",
         "track" : "Dirt",
@@ -202,7 +190,7 @@
     },
     {
         "id":"jbcsprint",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1104_00.png",
         "name" : "JBC Sprint",
         "date" : "Early November",
         "track" : "Dirt",
@@ -213,7 +201,7 @@
     },
      {
         "id":"queenelizabeth||cup",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1017_00.png",
         "name" : "Queen Elizabeth || Cup",
         "date" : "Early November",
         "track" : "Turf",
@@ -224,7 +212,7 @@
     },
      {
         "id":"japancup",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1019_00.png",
         "name" : "Japan Cup",
         "date" : "Late December",
         "track" : "Turf",
@@ -235,7 +223,7 @@
     },
      {
         "id":"milechampionship",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1018_00.png",
         "name" : "Mile Championship",
         "date" : "Late November",
         "track" : "Turf",
@@ -246,7 +234,7 @@
     },
      {
         "id":"championscup",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1020_00.png",
         "name" : "Champions Cup",
         "date" : "Early December",
         "track" : "Dirt",
@@ -256,10 +244,76 @@
         "grade" : "G1"   
     },
      {
+        "id":"arimakinen",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1023_00.png",
+        "name" : "Arima Kinen",
+        "date" : "Late December",
+        "track" : "Turf",
+        "location" : "Nakayama",
+        "distance" : "Long",
+        "length" : "2500m",
+        "grade" : "G1"   
+    },
+    {
         "id":"tokyodaishoten",
-        "image" : "/images/races/G1/arimakinen.png",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1106_00.png",
         "name" : "Tokyo Daishoten",
         "date" : "Late December",
+        "track" : "Dirt",
+        "location" : "Ooi",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"februarystakes",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1001_00.png",
+        "name" : "February Stakes",
+        "date" : "Late February",
+        "track" : "Dirt",
+        "location" : "Tokyo",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"osakahai",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1003_00.png",
+        "name" : "Osaka Hai",
+        "date" : "Late March",
+        "track" : "Truf",
+        "location" : "Hanshin",
+        "distance" : "Medium",
+        "length" : "2000m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"Tennosho(spring)",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1006_00.png",
+        "name" : "Tennno Sho (Spring)",
+        "date" : "Late April",
+        "track" : "Truf",
+        "location" : "Kyoto",
+        "distance" : "Long",
+        "length" : "3200m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"victoriamile",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1008_00.png",
+        "name" : "Victoria Mile",
+        "date" : "Early May",
+        "track" : "Truf",
+        "location" : "Tokyo",
+        "distance" : "Mile",
+        "length" : "1600m",
+        "grade" : "G1"   
+    },
+    {
+        "id":"teiosho",
+        "image" : "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_1101_00.png",
+        "name" : "Teio Sho",
+        "date" : "Late June",
         "track" : "Dirt",
         "location" : "Ooi",
         "distance" : "Medium",
@@ -268,23 +322,394 @@
     }
      
     ],
-
-    "G2_Races": [
-
+  "G2_Races": [
     {
-        "id":"Daily Hai Junior Stakes",
-        "image" : "/images/races/G2/Daily Hai Junior Stakes.png",
-        "name" : "Daily Hai Junior Stakes",
-        "date" : "Early November",
-        "track" : "Truf",
-        "location" : "Tokyo",
-        "distance" : "Mile",
-        "length" : "1600m",
-        "grade" : "G2"
+      "id": "Daily Hai Junior Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2032_00.png",
+      "name": "Daily Hai Junior Stakes",
+      "date": "Early November",
+      "track": "Turf",
+      "location": "Kyoto",
+      "distance": "Mile",
+      "length": "1600m",
+      "grade": "G2"
+    },
+    {
+      "id": "Keio Hai Junior Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2031_00.png",
+      "name": "Keio Hai Junior Stakes",
+      "date": "Early November",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Short",
+      "length": "1400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Tokyo Sports Hai Junior Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2033_00.png",
+      "name": "Tokyo Sports Hai Junior Stakes",
+      "date": "Late November",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Mile",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "American Jockey Club Cup",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2001_00.png",
+      "name": "American Jockey Club Cup",
+      "date": "Late January",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Medium",
+      "length": "2200m",
+      "grade": "G2"
+    },
+    {
+      "id": "Tokai Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2101_00.png",
+      "name": "Tokai Stakes",
+      "date": "Late January",
+      "track": "Dirt",
+      "location": "Chukyo",
+      "distance": "Mile",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "Kyoto Kinen",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2002_00.png",
+      "name": "Kyoto Kinen",
+      "date": "Early February",
+      "track": "Turf",
+      "location": "Kyoto",
+      "distance": "Medium",
+      "length": "2200m",
+      "grade": "G2"
+    },
+    {
+      "id": "Nakayama Kinen",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2003_00.png",
+      "name": "Nakayama Kinen",
+      "date": "Late February",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Mile",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "Tulip Sho",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2034_00.png",
+      "name": "Tulip Sho",
+      "date": "Early March",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Mile",
+      "length": "1600m",
+      "grade": "G2"
+    },
+    {
+      "id": "Fillies' Revue",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2035_00.png",
+      "name": "Fillies' Revue",
+      "date": "Early March",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Short",
+      "length": "1400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Yayoi Sho",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2036_00.png",
+      "name": "Yayoi Sho",
+      "date": "Early March",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Medium",
+      "length": "2000m",
+      "grade": "G2"
+    },
+    {
+      "id": "Kinko Sho",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2004_00.png",
+      "name": "Kinko Sho",
+      "date": "Early March",
+      "track": "Turf",
+      "location": "Chukyo",
+      "distance": "Medium",
+      "length": "2000m",
+      "grade": "G2"
+    },
+    {
+      "id": "Spring Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2037_00.png",
+      "name": "Spring Stakes",
+      "date": "Late March",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Mile",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "Hanshin Daishoten",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2005_00.png",
+      "name": "Hanshin Daishoten",
+      "date": "Late March",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Long",
+      "length": "3000m",
+      "grade": "G2"
+    },
+    {
+      "id": "Nikkei Sho",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2006_00.png",
+      "name": "Nikkei Sho",
+      "date": "Late March",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Medium",
+      "length": "2500m",
+      "grade": "G2"
+    },
+    {
+      "id": "New Zealand Trophy",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2038_00.png",
+      "name": "New Zealand Trophy",
+      "date": "Early April",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Mile",
+      "length": "1600m",
+      "grade": "G2"
+    },
+    {
+      "id": "Hanshin Himba Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2007_00.png",
+      "name": "Hanshin Himba Stakes",
+      "date": "Early April",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Mile",
+      "length": "1600m",
+      "grade": "G2"
+    },
+    {
+      "id": "Flora Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2039_00.png",
+      "name": "Flora Stakes",
+      "date": "Late April",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Medium",
+      "length": "2000m",
+      "grade": "G2"
+    },
+    {
+      "id": "Aoba Sho",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2040_00.png",
+      "name": "Aoba Sho",
+      "date": "Late April",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Medium",
+      "length": "2400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Milers Cup",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2008_00.png",
+      "name": "Milers Cup",
+      "date": "Late April",
+      "track": "Turf",
+      "location": "Kyoto",
+      "distance": "Mile",
+      "length": "1600m",
+      "grade": "G2"
+    },
+    {
+      "id": "Kyoto Shimbun Hai",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2041_00.png",
+      "name": "Kyoto Shimbun Hai",
+      "date": "Early May",
+      "track": "Turf",
+      "location": "Kyoto",
+      "distance": "Medium",
+      "length": "2200m",
+      "grade": "G2"
+    },
+    {
+      "id": "Keio Hai Spring Cup",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2009_00.png",
+      "name": "Keio Hai Spring Cup",
+      "date": "Early May",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Short",
+      "length": "1400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Meguro Kinen",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2010_00.png",
+      "name": "Meguro Kinen",
+      "date": "Late May",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Medium",
+      "length": "2500m",
+      "grade": "G2"
+    },
+    {
+      "id": "Sapporo Kinen",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2011_00.png",
+      "name": "Sapporo Kinen",
+      "date": "Late August",
+      "track": "Turf",
+      "location": "Sapporo",
+      "distance": "Medium",
+      "length": "2000m",
+      "grade": "G2"
+    },
+    {
+      "id": "Centaur Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2012_00.png",
+      "name": "Centaur Stakes",
+      "date": "Early September",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Short",
+      "length": "1200m",
+      "grade": "G2"
+    },
+    {
+      "id": "Rose Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2042_00.png",
+      "name": "Rose Stakes",
+      "date": "Early September",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Medium",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "St. Lite Kinen",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2043_00.png",
+      "name": "St. Lite Kinen",
+      "date": "Late September",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Medium",
+      "length": "2200m",
+      "grade": "G2"
+    },
+    {
+      "id": "Sankei Sho All Comers",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2013_00.png",
+      "name": "Sankei Sho All Comers",
+      "date": "Late September",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Medium",
+      "length": "2200m",
+      "grade": "G2"
+    },
+    {
+      "id": "Kobe Shimbun Hai",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2044_00.png",
+      "name": "Kobe Shimbun Hai",
+      "date": "Late September",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Medium",
+      "length": "2400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Mainichi Okan",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2014_00.png",
+      "name": "Mainichi Okan",
+      "date": "Early October",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Mile",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "Kyoto Daishoten",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2015_00.png",
+      "name": "Kyoto Daishoten",
+      "date": "Early October",
+      "track": "Turf",
+      "location": "Kyoto",
+      "distance": "Medium",
+      "length": "2400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Fuchu Himba Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2016_00.png",
+      "name": "Fuchu Himba Stakes",
+      "date": "Early October",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Mile",
+      "length": "1800m",
+      "grade": "G2"
+    },
+    {
+      "id": "Swan Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2017_00.png",
+      "name": "Swan Stakes",
+      "date": "Late October",
+      "track": "Turf",
+      "location": "Kyoto",
+      "distance": "Short",
+      "length": "1400m",
+      "grade": "G2"
+    },
+    {
+      "id": "Argentine Republic Cup",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2018_00.png",
+      "name": "Argentine Republic Cup",
+      "date": "Early November",
+      "track": "Turf",
+      "location": "Tokyo",
+      "distance": "Medium",
+      "length": "2500m",
+      "grade": "G2"
+    },
+    {
+      "id": "Stayers Stakes",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2019_00.png",
+      "name": "Stayers Stakes",
+      "date": "Early December",
+      "track": "Turf",
+      "location": "Nakayama",
+      "distance": "Long",
+      "length": "3600m",
+      "grade": "G2"
+    },
+    {
+      "id": "Hanshin Cup",
+      "image": "https://gametora.com/images/umamusume/en/race_banners/thum_race_rt_000_2020_00.png",
+      "name": "Hanshin Cup",
+      "date": "Late December",
+      "track": "Turf",
+      "location": "Hanshin",
+      "distance": "Short",
+      "length": "1400m",
+      "grade": "G2"
     }
+  ],
 
-    ],
-    
     "G3_Races": [
 
     {
