@@ -1,4 +1,5 @@
 // Website Navigation bar and tab feature
+//Mobile nav bar
 const openButton = document.getElementById("open-sidebar-button");
 const navBar = document.getElementById("navbar");
 
@@ -6,6 +7,7 @@ const media = window.matchMedia("(width<800px");
 
 media.addEventListener("change", (e) => updateNavbar(e));
 
+//Tap key disable in mobile enable in desktop
 function updateNavbar(e) {
   const isMobile = e.matches;
   if (isMobile) {
@@ -15,17 +17,21 @@ function updateNavbar(e) {
   }
 }
 
+// Nav bar open class to expense
 function openSideBar() {
   navBar.classList.add("show");
   openButton.setAttribute("aria-expended", "true");
   navBar.removeAttribute("inert");
 }
 
+// Nav bar close
 function closeSideBar() {
   navBar.classList.remove("show");
   openButton.setAttribute("aria-expended", "false");
   navBar.setAttribute("inert", "");
 }
+
+//call function update an nav bar for tab key s
 
 updateNavbar(media);
 
@@ -55,19 +61,18 @@ function searchUma() {
 // Race Search and Filter Function
 
 let currentGrade = "all";
-let racesData = []; 
+let racesData = [];
 
 async function initRaces() {
   try {
-    
     const response = await fetch("/data/jra-race.json");
     const jsonObject = await response.json();
     racesData = [
       ...jsonObject.G1_Races,
       ...jsonObject.G2_Races,
-      ...jsonObject.G3_Races
-    ]
-    displayRaces(racesData); // 
+      ...jsonObject.G3_Races,
+    ];
+    displayRaces(racesData); //
   } catch (error) {
     console.error("Data loading error:", error);
   }
@@ -78,13 +83,15 @@ if (window.location.pathname.includes("races.html")) {
   initRaces();
 }
 
+
+//display races data
 function displayRaces(data) {
   const container = document.getElementById("raceContainer");
   if (!container) return;
   container.innerHTML = ""; // Clear Html
 
   data.forEach((race) => {
-    // Backticks ( ` ) 
+    // Backticks ( ` )
     const raceCard = `
       <div class="race-card" data-category="${race.grade}">
         <img src="${race.image}" alt="${race.name}" class="race-img" />
@@ -112,7 +119,7 @@ function displayRaces(data) {
 function filterByGrade(grade, btnElement) {
   currentGrade = grade;
 
-  // Button active class ပြောင်းခြင်း
+  // Button active class change
   let raceButtons = document.querySelectorAll(".filter-button");
   raceButtons.forEach((btn) => btn.classList.remove("active"));
   btnElement.classList.add("active");
@@ -124,7 +131,7 @@ function searchRaces() {
   applyAllFilters();
 }
 
-// Search ရော Filter ရော ပေါင်းစပ်ပေးမယ့် function
+// Search filter function
 function applyAllFilters() {
   const term = document.getElementById("characterSearch").value.toLowerCase();
 

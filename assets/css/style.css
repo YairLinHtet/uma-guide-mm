@@ -17,6 +17,17 @@
   list-style: none;
   text-decoration: none;
 }
+
+html,body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   min-height: 100vh;
   display: grid;
@@ -24,6 +35,7 @@ body {
   grid-template-rows: auto 1fr auto;
   font-family: "Padauk", sans-serif;
   font-weight: 700;
+  /* overflow: hidden; */
 }
 p {
   line-height: 2.2;

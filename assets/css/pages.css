@@ -73,12 +73,18 @@
 }
 .why-popular-card {
   padding: 2rem;
-  background-color: rgb(192, 202, 237);
+
   border: 2px solid black;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  background: #afa0de;
+  background: linear-gradient(
+    357deg,
+    rgba(175, 160, 222, 1) 40%,
+    rgba(210, 235, 199, 1) 80%
+  );
 }
 .why-popular-card .card-heading {
   font-size: clamp(1rem, 0.857rem + 0.714vw, 1.5rem);
@@ -349,8 +355,17 @@
     rgba(151, 209, 172, 1) 50%,
     rgba(227, 174, 95, 1) 81%
   );
+  border: 2px solid transparent;
+  transition:
+    border-color 0.3s ease,
+    transform 0.6s ease;
 }
-
+.guide-cards:hover {
+  border: 2px solid rgb(54, 63, 128);
+}
+.guide-cards:hover .guide-card-img {
+  transform: scale(1.1);
+}
 .guide-intro-text {
   font-size: clamp(0.8rem, 0.686rem + 0.571vw, 1.2rem);
 }
@@ -362,10 +377,19 @@
 .guide-text {
   font-size: clamp(0.7rem, 0.614rem + 0.429vw, 1rem);
 }
+.card-img-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
 .guide-card-img {
   width: 100%;
   height: auto;
+  display: block;
   border-radius: 1rem;
+  object-fit: cover;
+  transition: transform 0.6 cubic-bezier(0.25, 0.4, 0.4, 0.9);
 }
 
 .guide-link {
@@ -375,6 +399,10 @@
   border-radius: 1rem;
   color: white;
   font-size: clamp(0.8rem, 0.743rem + 0.286vw, 1rem);
+}
+
+.guide-link:hover {
+  background-color: #234796;
 }
 
 /* Team Page Css */
@@ -405,6 +433,7 @@
   justify-content: center;
   gap: 1rem;
   padding: 1rem 0;
+  margin-bottom: 2rem;
 }
 .team-card {
   width: 100%;
@@ -416,13 +445,12 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  background: #31308c;
+  background: #4161ba;
   background: linear-gradient(
-    207deg,
-    rgba(49, 48, 140, 1) 0%,
-    rgba(29, 29, 171, 1) 27%,
-    rgba(95, 65, 190, 1) 68%,
-    rgba(129, 63, 176, 1) 99%
+    57deg,
+    rgba(65, 97, 186, 1) 28%,
+    rgba(46, 63, 178, 1) 52%,
+    rgba(29, 171, 169, 1) 73%
   );
   color: white;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -663,9 +691,12 @@
   .profile-bio {
     margin-right: auto;
   }
+  .team-trail-guide {
+    flex-direction: column;
+  }
 }
 
-/* Guide CSs */
+/* Begineer Guide CSs */
 
 .screen {
   display: flex;
@@ -754,4 +785,49 @@
 }
 .guide-intro-p {
   font-size: clamp(0.7rem, 0.614rem + 0.429vw, 1rem);
+}
+
+.navigation-guide {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.team-guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.team-guide ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.team-guide ul li {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.team-guide-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.team-img-container {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.team-img {
+  max-width: 100%;
+  height: auto;
+}
+.team-trail-guide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
 }
